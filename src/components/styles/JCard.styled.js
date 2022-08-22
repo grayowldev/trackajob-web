@@ -3,8 +3,11 @@ import styled from 'styled-components';
 export const JCard = styled.div`
     width: 300px;
     height: 120px;
-    border-radius: 15px;
+    border-radius: 10px;
+    margin: 10px;
     padding-top: 20px;
+    border: 1px solid;
+    border-color: #E0DFDC;
     background-color: white;
     
     #company {

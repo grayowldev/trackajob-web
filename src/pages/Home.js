@@ -24,7 +24,10 @@ export default function Home(props) {
             <h1>Welcome Home</h1>
             <button onClick={triggerPopup}>Add Job</button>
             <Popup trigger={popupTrigger}/>
-            <JobCard data={cardData}/>
+            {jobs.map((job) => (
+                <JobCard data={job}/>
+            ))}
+            
         </Container>
         )
 }
