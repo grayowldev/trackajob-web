@@ -1,0 +1,14 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.form-holder {
+    width: 30vw;
+    margin: 1em 1em;
+    padding: 3em 10vw;
+    background-color: brown;
+}

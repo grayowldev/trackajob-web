@@ -1,0 +1,45 @@
+
+.card {
+    border-style:solid;
+    background-color: yellow;
+    width: 30em;
+}
+
+#icon {
+    float: left;
+    border-style: solid;
+    margin: 5px;
+    width: 64px;
+    height: 64px;
+    padding: 3px;
+    background-color: aqua;
+}
+
+#title-holder {
+    width: 20em;
+    background-color: pink;
+    padding: .9em;
+    margin-left: 72px;
+}
+
+#job-company { 
+    color: rebeccapurple;
+    font-size: large;
+    padding-bottom: 3px;
+
+}
+
+#job-title {
+    font-size: 1.4em;
+    padding:0 0;
+
+}
+
+#job-location {
+    
+}
+
+#job-status {
+    
+}
+
