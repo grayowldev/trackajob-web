@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const JCard = styled.div`
-    width: 300px;
+    width: 360px;
     height: 120px;
     border-radius: 10px;
     margin: 10px;

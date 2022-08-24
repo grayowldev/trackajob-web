@@ -3,6 +3,7 @@ import { createTheme } from '@mui/material/styles';
 import Card from '@mui/joy/Card';
 import './card.css';
 import { JCard } from '../styles/JCard.styled';
+import { JImage } from '../styles/JImage.styled';
 
 
 export default function JobCard(props) {
@@ -25,8 +26,9 @@ export default function JobCard(props) {
 
     return(<div >
         <JCard>
+            <JImage src={props.data.company.image}/>
             <div id="position">{props.data.position}</div>
-            <div id="company">{props.data.company}</div>
+            <div id="company">{props.data.company.name}</div>
             <div id='location'>{props.data.location}</div>
         </JCard>
         {/* <Card

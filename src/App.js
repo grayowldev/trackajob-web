@@ -83,7 +83,7 @@ function App() {
         <Button text="Add a job" onClick={func}/>
       </div>
       <div>
-        <JTable jobs={jobs}/>
+        {/* <JTable jobs={jobs}/> */}
       </div>
       <Popup trigger={true}/>
       {jobs.map((job) => (
