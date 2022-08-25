@@ -6,7 +6,7 @@ export const JCard = styled.div`
     border-radius: 10px;
     margin: 10px;
     padding-top: 20px;
-    border: 1px solid;
+    border: 1.3px solid;
     border-color: #E0DFDC;
     background-color: white;
     
@@ -28,5 +28,9 @@ export const JCard = styled.div`
         padding-top: 4px;
         text-align: left;
         font-size: 14px;
+    }
+
+    &:hover {
+        border-color: blue;
     }
 `;

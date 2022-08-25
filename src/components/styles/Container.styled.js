@@ -6,6 +6,7 @@ export const Container = styled.div`
     max-width: 100%;
     padding: 0 20px;
     margin: 0 auto;
+    /* margin-top: 150px; */
     background-color: #F3F3F3;
 
 `;

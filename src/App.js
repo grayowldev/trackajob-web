@@ -16,6 +16,7 @@ import { Card } from '@mui/material';
 import { ClassNames } from '@emotion/react';
 import styled from 'styled-components';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { JNav } from './components/styles/JNav.styles';
 
 
 
@@ -73,12 +74,15 @@ function App() {
     //   </header>
     // </div>
     <div className='App'>
+
+      <Navbar />
       <Router>
         <Routes>
           <Route exact path='/' element={<Home jobs={jobs}/>} />
         </Routes>
       </Router>
-      <Navbar />
+      
+      
       <div>
         <Button text="Add a job" onClick={func}/>
       </div>
